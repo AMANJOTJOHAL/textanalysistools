@@ -24,25 +24,20 @@ namespace textanalysistools
 
         }
 
-        public MyFunctionA(string input)
+        public string MyFunctionA(string input)
 
         {
 
             string[] words = input.Split('');
-
-            int wordArrayLength = new int[wordArrayLength];
+            int wordArrayLength = words.Length;
+            int[]wordsArrayLegth =new int[wordArrayLength];
 
 
 
             foreach (var word in words)
 
             {
-                if (s.Length > ctr)
-                {
-                    word = s;
-                    ctr = s.Length;
-                }
-
+                
 
             }
 
@@ -62,7 +57,7 @@ namespace textanalysistools
 
             }
 
-
+            return currentWord;
 
         }
 
